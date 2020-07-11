@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    background-color: gray;
+}
+.img{
+    width: 30%;
+    height: 30%;
+}
+.list li {
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+  }
+  .list li:hover:after,
+  .list li.fav:after {
+    content: ' \2605';
+    color: rgb(255, 203, 0);
+  }
+  .list li.fav:hover:after {
+    content: ' \2606';
+  }

@@ -1,0 +1,13 @@
+.list li {
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+  }
+  .list li:hover:after,
+  .list li.fav:after {
+    content: ' \2605';
+    color: rgb(255, 203, 0);
+  }
+  .list li.fav:hover:after {
+    content: ' \2606';
+  }
